@@ -1,6 +1,15 @@
 .main {
     display: 'grid';
     grid-template-columns: '1fr 1fr 1fr';
+    background-color: rgba(19, 158, 54, 0.651);
+}
+
+li {
+  list-style-type: none;
+}
+
+img {
+  border-radius: 25px;
 }
 
 .spinner::before {
