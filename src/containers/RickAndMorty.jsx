@@ -16,7 +16,7 @@ const RickAndMorty = () => {
 
   if (loading) return <Loading />
 
-  return (
+  else return (
     <div>
       <button onClick={() => setPage((prevPage) => prevPage + 1)}>
         Page: {page}

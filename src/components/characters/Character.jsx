@@ -7,9 +7,9 @@ const Character = ({ name, status, species, image, origin, location }) => (
         <figcaption>
             <h3>{name}</h3>
             <p>{status}</p>
-            <p>{species}</p>
-            <p>{origin.name}</p>
-            <p>{location.name}</p>
+            <p>Species: {species}</p>
+            <p>Origin: {origin.name}</p>
+            <p>Location: {location.name}</p>
         </figcaption>
     </figure>
 );
@@ -19,8 +19,8 @@ Character.propTypes = {
     status: PropTypes.string.isRequired,
     species: PropTypes.string.isRequired,
     image: PropTypes.string.isRequired,
-    origin: PropTypes.string.isRequired,
-    location: PropTypes.string.isRequired,
+    origin: PropTypes.object.isRequired,
+    location: PropTypes.object.isRequired,
 }
 
 export default Character;

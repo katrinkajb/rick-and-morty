@@ -6,7 +6,6 @@ import style from './App.css';
 export default function App() {
   return (
     <section className={style.main}>
-      <Loading />
       <RickAndMorty />
     </section>
   )

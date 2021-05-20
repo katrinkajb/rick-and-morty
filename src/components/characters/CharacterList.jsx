@@ -1,5 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import Character from './Character';
 
 const CharacterList = ({ characters }) => (
     <ul aria-label='characters'>
@@ -19,8 +20,8 @@ CharacterList.propTypes = {
             status: PropTypes.string.isRequired,
             species: PropTypes.string.isRequired,
             image: PropTypes.string.isRequired,
-            origin: PropTypes.string.isRequired,
-            location: PropTypes.string.isRequired, 
+            origin: PropTypes.object.isRequired,
+            location: PropTypes.object.isRequired, 
         })
     )
 }
