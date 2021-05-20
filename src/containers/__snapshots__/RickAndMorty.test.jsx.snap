@@ -1,0 +1,568 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`RickAndMorty Character Container tests the RickAndMorty app 1`] = `
+<ul
+  aria-label="characters"
+>
+  <li>
+    <figure>
+      <img
+        alt="Ghost in a Jar"
+        src="https://rickandmortyapi.com/api/character/avatar/141.jpeg"
+      />
+      <figcaption>
+        <h3>
+          Ghost in a Jar
+        </h3>
+        <p>
+          Dead
+        </p>
+        <p>
+          Species: 
+          Alien
+        </p>
+        <p>
+          Origin: 
+          unknown
+        </p>
+        <p>
+          Location: 
+          Earth (Replacement Dimension)
+        </p>
+      </figcaption>
+    </figure>
+  </li>
+  <li>
+    <figure>
+      <img
+        alt="Gibble Snake"
+        src="https://rickandmortyapi.com/api/character/avatar/142.jpeg"
+      />
+      <figcaption>
+        <h3>
+          Gibble Snake
+        </h3>
+        <p>
+          Dead
+        </p>
+        <p>
+          Species: 
+          Alien
+        </p>
+        <p>
+          Origin: 
+          Resort Planet
+        </p>
+        <p>
+          Location: 
+          Resort Planet
+        </p>
+      </figcaption>
+    </figure>
+  </li>
+  <li>
+    <figure>
+      <img
+        alt="Glasses Morty"
+        src="https://rickandmortyapi.com/api/character/avatar/143.jpeg"
+      />
+      <figcaption>
+        <h3>
+          Glasses Morty
+        </h3>
+        <p>
+          Alive
+        </p>
+        <p>
+          Species: 
+          Human
+        </p>
+        <p>
+          Origin: 
+          unknown
+        </p>
+        <p>
+          Location: 
+          Citadel of Ricks
+        </p>
+      </figcaption>
+    </figure>
+  </li>
+  <li>
+    <figure>
+      <img
+        alt="Glenn"
+        src="https://rickandmortyapi.com/api/character/avatar/144.jpeg"
+      />
+      <figcaption>
+        <h3>
+          Glenn
+        </h3>
+        <p>
+          Dead
+        </p>
+        <p>
+          Species: 
+          Alien
+        </p>
+        <p>
+          Origin: 
+          unknown
+        </p>
+        <p>
+          Location: 
+          Interdimensional Customs
+        </p>
+      </figcaption>
+    </figure>
+  </li>
+  <li>
+    <figure>
+      <img
+        alt="Glenn"
+        src="https://rickandmortyapi.com/api/character/avatar/145.jpeg"
+      />
+      <figcaption>
+        <h3>
+          Glenn
+        </h3>
+        <p>
+          Alive
+        </p>
+        <p>
+          Species: 
+          Human
+        </p>
+        <p>
+          Origin: 
+          unknown
+        </p>
+        <p>
+          Location: 
+          Interdimensional Cable
+        </p>
+      </figcaption>
+    </figure>
+  </li>
+  <li>
+    <figure>
+      <img
+        alt="Glexo Slim Slom"
+        src="https://rickandmortyapi.com/api/character/avatar/146.jpeg"
+      />
+      <figcaption>
+        <h3>
+          Glexo Slim Slom
+        </h3>
+        <p>
+          Alive
+        </p>
+        <p>
+          Species: 
+          Alien
+        </p>
+        <p>
+          Origin: 
+          unknown
+        </p>
+        <p>
+          Location: 
+          Nuptia 4
+        </p>
+      </figcaption>
+    </figure>
+  </li>
+  <li>
+    <figure>
+      <img
+        alt="Gobo"
+        src="https://rickandmortyapi.com/api/character/avatar/147.jpeg"
+      />
+      <figcaption>
+        <h3>
+          Gobo
+        </h3>
+        <p>
+          Dead
+        </p>
+        <p>
+          Species: 
+          Alien
+        </p>
+        <p>
+          Origin: 
+          unknown
+        </p>
+        <p>
+          Location: 
+          Earth (Replacement Dimension)
+        </p>
+      </figcaption>
+    </figure>
+  </li>
+  <li>
+    <figure>
+      <img
+        alt="Goddess Beth"
+        src="https://rickandmortyapi.com/api/character/avatar/148.jpeg"
+      />
+      <figcaption>
+        <h3>
+          Goddess Beth
+        </h3>
+        <p>
+          unknown
+        </p>
+        <p>
+          Species: 
+          Mythological Creature
+        </p>
+        <p>
+          Origin: 
+          Nuptia 4
+        </p>
+        <p>
+          Location: 
+          Nuptia 4
+        </p>
+      </figcaption>
+    </figure>
+  </li>
+  <li>
+    <figure>
+      <img
+        alt="Gordon Lunas"
+        src="https://rickandmortyapi.com/api/character/avatar/149.jpeg"
+      />
+      <figcaption>
+        <h3>
+          Gordon Lunas
+        </h3>
+        <p>
+          Dead
+        </p>
+        <p>
+          Species: 
+          Human
+        </p>
+        <p>
+          Origin: 
+          unknown
+        </p>
+        <p>
+          Location: 
+          Earth (Replacement Dimension)
+        </p>
+      </figcaption>
+    </figure>
+  </li>
+  <li>
+    <figure>
+      <img
+        alt="Cornvelious Daniel"
+        src="https://rickandmortyapi.com/api/character/avatar/150.jpeg"
+      />
+      <figcaption>
+        <h3>
+          Cornvelious Daniel
+        </h3>
+        <p>
+          Dead
+        </p>
+        <p>
+          Species: 
+          Alien
+        </p>
+        <p>
+          Origin: 
+          unknown
+        </p>
+        <p>
+          Location: 
+          Galactic Federation Prison
+        </p>
+      </figcaption>
+    </figure>
+  </li>
+  <li>
+    <figure>
+      <img
+        alt="Gwendolyn"
+        src="https://rickandmortyapi.com/api/character/avatar/151.jpeg"
+      />
+      <figcaption>
+        <h3>
+          Gwendolyn
+        </h3>
+        <p>
+          unknown
+        </p>
+        <p>
+          Species: 
+          Robot
+        </p>
+        <p>
+          Origin: 
+          Gazorpazorp
+        </p>
+        <p>
+          Location: 
+          Earth (Replacement Dimension)
+        </p>
+      </figcaption>
+    </figure>
+  </li>
+  <li>
+    <figure>
+      <img
+        alt="Hammerhead Morty"
+        src="https://rickandmortyapi.com/api/character/avatar/152.jpeg"
+      />
+      <figcaption>
+        <h3>
+          Hammerhead Morty
+        </h3>
+        <p>
+          unknown
+        </p>
+        <p>
+          Species: 
+          Humanoid
+        </p>
+        <p>
+          Origin: 
+          unknown
+        </p>
+        <p>
+          Location: 
+          Citadel of Ricks
+        </p>
+      </figcaption>
+    </figure>
+  </li>
+  <li>
+    <figure>
+      <img
+        alt="Hamster In Butt"
+        src="https://rickandmortyapi.com/api/character/avatar/153.jpeg"
+      />
+      <figcaption>
+        <h3>
+          Hamster In Butt
+        </h3>
+        <p>
+          Alive
+        </p>
+        <p>
+          Species: 
+          Animal
+        </p>
+        <p>
+          Origin: 
+          Hamster in Butt World
+        </p>
+        <p>
+          Location: 
+          Hamster in Butt World
+        </p>
+      </figcaption>
+    </figure>
+  </li>
+  <li>
+    <figure>
+      <img
+        alt="Hamurai"
+        src="https://rickandmortyapi.com/api/character/avatar/154.jpeg"
+      />
+      <figcaption>
+        <h3>
+          Hamurai
+        </h3>
+        <p>
+          Dead
+        </p>
+        <p>
+          Species: 
+          Alien
+        </p>
+        <p>
+          Origin: 
+          unknown
+        </p>
+        <p>
+          Location: 
+          Earth (Replacement Dimension)
+        </p>
+      </figcaption>
+    </figure>
+  </li>
+  <li>
+    <figure>
+      <img
+        alt="Harold"
+        src="https://rickandmortyapi.com/api/character/avatar/155.jpeg"
+      />
+      <figcaption>
+        <h3>
+          Harold
+        </h3>
+        <p>
+          Alive
+        </p>
+        <p>
+          Species: 
+          Cronenberg
+        </p>
+        <p>
+          Origin: 
+          Earth (C-137)
+        </p>
+        <p>
+          Location: 
+          Earth (C-137)
+        </p>
+      </figcaption>
+    </figure>
+  </li>
+  <li>
+    <figure>
+      <img
+        alt="Hemorrhage"
+        src="https://rickandmortyapi.com/api/character/avatar/156.jpeg"
+      />
+      <figcaption>
+        <h3>
+          Hemorrhage
+        </h3>
+        <p>
+          Alive
+        </p>
+        <p>
+          Species: 
+          Human
+        </p>
+        <p>
+          Origin: 
+          Post-Apocalyptic Earth
+        </p>
+        <p>
+          Location: 
+          Post-Apocalyptic Earth
+        </p>
+      </figcaption>
+    </figure>
+  </li>
+  <li>
+    <figure>
+      <img
+        alt="Hole in the Wall Where the Men Can See it All"
+        src="https://rickandmortyapi.com/api/character/avatar/157.jpeg"
+      />
+      <figcaption>
+        <h3>
+          Hole in the Wall Where the Men Can See it All
+        </h3>
+        <p>
+          unknown
+        </p>
+        <p>
+          Species: 
+          unknown
+        </p>
+        <p>
+          Origin: 
+          unknown
+        </p>
+        <p>
+          Location: 
+          Interdimensional Cable
+        </p>
+      </figcaption>
+    </figure>
+  </li>
+  <li>
+    <figure>
+      <img
+        alt="Hookah Alien"
+        src="https://rickandmortyapi.com/api/character/avatar/158.jpeg"
+      />
+      <figcaption>
+        <h3>
+          Hookah Alien
+        </h3>
+        <p>
+          Alive
+        </p>
+        <p>
+          Species: 
+          Alien
+        </p>
+        <p>
+          Origin: 
+          unknown
+        </p>
+        <p>
+          Location: 
+          Interdimensional Customs
+        </p>
+      </figcaption>
+    </figure>
+  </li>
+  <li>
+    <figure>
+      <img
+        alt="Hunter"
+        src="https://rickandmortyapi.com/api/character/avatar/159.jpeg"
+      />
+      <figcaption>
+        <h3>
+          Hunter
+        </h3>
+        <p>
+          Dead
+        </p>
+        <p>
+          Species: 
+          Human
+        </p>
+        <p>
+          Origin: 
+          Earth (Giant Telepathic Spiders Dimension)
+        </p>
+        <p>
+          Location: 
+          Earth (Giant Telepathic Spiders Dimension)
+        </p>
+      </figcaption>
+    </figure>
+  </li>
+  <li>
+    <figure>
+      <img
+        alt="Hunter's Father"
+        src="https://rickandmortyapi.com/api/character/avatar/160.jpeg"
+      />
+      <figcaption>
+        <h3>
+          Hunter's Father
+        </h3>
+        <p>
+          Alive
+        </p>
+        <p>
+          Species: 
+          Human
+        </p>
+        <p>
+          Origin: 
+          Earth (Giant Telepathic Spiders Dimension)
+        </p>
+        <p>
+          Location: 
+          Earth (Giant Telepathic Spiders Dimension)
+        </p>
+      </figcaption>
+    </figure>
+  </li>
+</ul>
+`;
