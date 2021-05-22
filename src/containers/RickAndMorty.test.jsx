@@ -1,24 +1,21 @@
 import React from 'react';
-import { render, screen, fireEvent, waitFor } from '@testing-library/react';
-import { rest } from 'msw';
-import { setupServer } from 'msw/node';
-import RickAndMorty from './RickAndMorty';
-import mockCharacter from './mockCharacters.json';
+import { render, screen, waitFor } from '@testing-library/react';
 
-const server = setupServer(
-    rest.get('https://rickandmortyapi.com/api/character', (req, res, ctx) => {
-        return res(ctx.json(mockCharacter));
-    })
-)
+import { MemoryRouter } from 'react-router';
+import App from '../components/app/App';
 
-describe('RickAndMorty Character Container', () => {
-    beforeAll(() => server.listen());
-    afterAll(() => server.close());
-    
+describe('RickAndMorty Character Container', () => {  
     it('tests the RickAndMorty app', async () => {
-        render(<RickAndMorty />);
+        render(
+            <MemoryRouter>
+                <App />
+            </MemoryRouter>
+        );
 
         const ul = await screen.findByRole('list', {name: 'characters'});
-        expect(ul).toMatchSnapshot();
-    })
-})
+
+        return waitFor(() => {
+            expect(ul).toMatchSnapshot();
+        });
+    });
+});

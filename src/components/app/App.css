@@ -1,7 +1,7 @@
 .main {
     display: 'grid';
     grid-template-columns: '1fr 1fr 1fr';
-    background-color: rgba(19, 158, 54, 0.651);
+    background-color: rgba(19, 158, 54, 0.651);   
 }
 
 li {
